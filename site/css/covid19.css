@@ -1,0 +1,103 @@
+.covid19-page-header {}
+
+/*--------------------body-----------*/
+#myVideo {
+  object-fit: fill;
+  position: absolute;
+  min-width: 100%;
+  max-height: 89.2vh;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
+  min-width: 100vw;
+  min-height: 89.2vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.content>h1 {
+  color: #ffffff;
+  font-size: 5.5rem;
+  margin-bottom: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /*background-color: #747474c5;
+  padding: 0 2rem;*/
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgb(32, 32, 32);
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+.covid19-page-OrgSection {
+  margin-top: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+  padding: 3rem;
+}
+
+.covid19-page-OrgSection>.row-12 {
+  text-align: center;
+  width: 50rem;
+}
+
+.covid19-page-firstSection {
+  margin: 2rem 0;
+}
+
+.firstSection-p-container>span {
+  font-size: 1.1rem;
+  width: 10rem;
+}
+
+.bng-role-image {
+  box-shadow: 40px 40px rgba(249, 61, 77, 0.1);
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+
+.covid19-page-secondSection {
+  background-color: black;
+  margin: 2rem 0;
+}
+
+.firstSection-p-container-h1 {
+  border-bottom: 2px solid rgba(99, 99, 99, 0.112);
+}
+
+.secondSection-p-container-h1 {
+  color: white !important;
+  border-bottom: 2px solid rgba(99, 99, 99, 0.212);
+}
+
+.secondSection-p-container {
+  color: rgb(240, 240, 240);
+}
+
+/*----------------FOOTER------->*/
+.covid19-page-footer {
+  position: relative;
+}

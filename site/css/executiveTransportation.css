@@ -1,0 +1,63 @@
+.title-section-mainRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.title-section-mainRow>h2 {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.322);
+  padding-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.title-section-mainRow>p {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+
+.body-section {
+  background: url("../images/executive-transportation-background5.jpg") no-repeat center;
+  background-size: cover;
+  margin: 8rem;
+  border-radius: 0.8em;
+}
+
+.body-section-upper-row,
+.body-section-middle-row,
+.body-section-lower-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.149);
+  padding: 1rem;
+  border-radius: 0.8em;
+}
+
+.body-section-upper-para,
+.body-section-middle-para,
+.body-section-lower-para {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.body-section-upper-para>strong,
+.body-section-middle-para>strong,
+.body-section-lower-para>strong {
+  font-size: 2rem;
+  color: white;
+}
+
+.body-section-lower-para>span {
+  background-color: rgba(218, 165, 32, 0.705);
+  padding: 0 0.5rem;
+}
+
+.body-section-image {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  margin: 1rem;
+}

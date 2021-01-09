@@ -1,0 +1,87 @@
+.heading-section {
+    background: url(../images/wwa-image14.jpg) no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+}
+
+.heading-section::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.heading-section-title-div {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+
+.heading-section-title-div>h1 {
+    color: white;
+    z-index: 5;
+}
+
+.cityTour-section {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 32%, rgba(210, 171, 44, 1) 32%, rgba(210, 171, 44, 1) 59%, rgba(255, 255, 255, 1) 59%);
+}
+
+.cityTour-main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cityTour-text-col {
+    background: url(../images/pattern8.png);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.cityTour-text-col>h2 {
+    margin: 0rem 0;
+}
+
+.cityTour-text-col>p {
+    max-width: 30rem;
+    text-align: center;
+}
+
+.cityTour-text-col>p>strong {
+    color: rgba(210, 171, 44, 1);
+    font-weight: 400;
+}
+
+.cityTours-images-row>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cityTour-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 230px;
+    padding: 0rem;
+}
+
+.cityTour-image-middle {
+    transform: scale(1.22);
+    border: 3px solid rgba(210, 171, 44, 1);
+}

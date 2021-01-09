@@ -1,0 +1,5 @@
+.footer-quicklinks,
+.footer-quicklinks>li>a,
+.footer-quicklinks>strong {
+    color: white !important;
+}

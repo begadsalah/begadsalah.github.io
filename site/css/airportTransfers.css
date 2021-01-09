@@ -1,0 +1,159 @@
+.upper-section,
+.lower-section {
+    background-color: #D2AC2C;
+}
+
+.secondMiddle-section {
+    background-color: black;
+}
+
+.upper-section-container,
+.firstMiddle-section-container,
+.secondMiddle-section-container,
+.lower-section-container {
+    padding: 3rem;
+}
+
+.firstMiddle-section-container,
+.secondMiddle-section-container,
+.lower-section-container {
+    margin: 3rem;
+}
+
+.upper-section-main-row,
+.firstMiddle-section-main-row,
+.secondMiddle-section-main-row,
+.lower-section-main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.upper-section-text-col,
+.secondMiddle-section-text-col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.firstMiddle-section-text-col,
+.lower-section-text-col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+    padding: 1.5rem;
+}
+
+.upper-section-text-col>span,
+.firstMiddle-section-text-col>span,
+.secondMiddle-section-text-col>span,
+.title-div>span,
+.lower-section-text-col>span {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: #151515;
+    padding: 0.2rem 2.7rem;
+
+}
+
+.secondMiddle-section-text-col>span,
+.lower-section-text-col>span {
+    background-color: #ffffff !important;
+}
+
+.title-div>span {
+    background-color: rgb(210, 172, 44);
+    margin-bottom: 4rem;
+}
+
+.upper-section-text-col>p,
+.firstMiddle-section-text-col>p,
+.secondMiddle-section-text-col>p {
+    font-size: 1.1rem;
+    color: rgb(41, 41, 41);
+}
+
+.secondMiddle-section-text-col>p,
+.secondMiddle-section-text-col>h1,
+.lower-section-text-col>p,
+.lower-section-text-col>h1 {
+    color: white;
+}
+
+.upper-section-image,
+.firstMiddle-section-image,
+.secondMiddle-section-image,
+.lower-section-image {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.secondMiddle-section-image-col,
+.firstMiddle-section-image-col,
+.upper-section-image-col,
+.lower-section-image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdMiddle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: rgba(197, 197, 197, 0.1);
+}
+
+.thirdMiddle-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.title-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-div>h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    max-width: 60rem;
+    font-weight: 500;
+}
+
+.thirdMiddle-section-main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.thirdMiddle-section-commersialAirport1-col,
+.thirdMiddle-section-commersialAirport2-col,
+.thirdMiddle-section-commersialAirport3-col,
+.thirdMiddle-section-commersialAirport4-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 2px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -1px;
+    padding: 2rem;
+    margin: 0.5rem;
+}
+
+.thirdMiddle-section-image {
+    padding: 1rem;
+}
