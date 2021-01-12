@@ -1,3 +1,112 @@
+/*Heading sectopn*/
+.heading-section {
+  background: url(../images/executive-transportation-background6.jpg) no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 95vh;
+}
+
+.heading-section::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 95vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.heading-section-title-div {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+  z-index: 15;
+}
+
+.heading-section-title-tags {
+  z-index: 15;
+}
+
+.heading-section-title-tags>h1,
+.heading-section-title-tags>h5 {
+  color: white;
+  z-index: 15;
+}
+
+.heading-section-title-tags>h1 {
+  font-size: 4.5rem;
+}
+
+.heading-section-title-tags>p {
+  color: rgba(210, 171, 44, 1);
+  font-size: 1.5rem;
+}
+
+.heading-section-title-div>h1 {
+  color: white;
+  z-index: 5;
+}
+
+
+.heading-section-title-div {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+}
+
+.heading-section-title-div>h1 {
+  color: white;
+  z-index: 5;
+}
+
+/* UPPER SECTION */
+.upper-section-main-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.upper-section-right-col-title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-section-left-col-image-div {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.upper-section-right-col,
+.upper-section-right-col-para-div {
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../images/pattern1.png)no-repeat center;
+  background-size: contain;
+  padding: 1rem
+}
+
+.upper-section-right-col-para-div>p {
+  width: 25rem;
+  color: black;
+
+}
+
+/*TITLE SECTION*/
 .title-section-mainRow {
   display: flex;
   justify-content: center;
@@ -8,7 +117,6 @@
 }
 
 .title-section-mainRow>h2 {
-  border-bottom: 2px solid rgba(128, 128, 128, 0.322);
   padding-bottom: 1.5rem;
   font-weight: 500;
 }
@@ -60,4 +168,24 @@
   -moz-border-radius: 0.5em;
   border-radius: 0.5em;
   margin: 1rem;
+}
+
+.coverLayer {
+  padding: 3rem;
+}
+
+.topPlaces-section {
+  background-size: cover;
+}
+
+.topPlaces-section::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.item-div {
+  padding-top: 3rem;
 }

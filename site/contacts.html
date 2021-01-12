@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css" id="main-styles-link">
   <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/contacts.css" />
   <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -158,13 +159,14 @@
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-menu rd-navbar-dropdown">
                       <li class="rd-dropdown-item">
-                        <a class="rd-dropdown-link" href="specialEvents.html">Weddings / Proms</a>
+                        <a class="rd-dropdown-link" href="specialEvents.html#wedding">Weddings / Proms</a>
                       </li>
                       <li class="rd-dropdown-item">
-                        <a class="rd-dropdown-link" href="specialEvents.html">Honeymoon, Anniversary or date night</a>
+                        <a class="rd-dropdown-link" href="specialEvents.html#honeymoon">Honeymoon, Anniversary or date
+                          night</a>
                       </li>
                       <li class="rd-dropdown-item">
-                        <a class="rd-dropdown-link" href="specialEvents.html">A night in SF</a>
+                        <a class="rd-dropdown-link" href="specialEvents.html#dateNight">A night in SF</a>
                       </li>
                       <li class="rd-dropdown-item">
                         <a class="rd-dropdown-link" href="specialEvents.html">Events</a>
@@ -179,7 +181,7 @@
                         <a class="rd-dropdown-link" href="aboutUs.html">Why BNG</a>
                       </li>
                       <li class="rd-dropdown-item">
-                        <a class="rd-dropdown-link" href="marketsServeds.html">Markets serveds</a>
+                        <a class="rd-dropdown-link" href="marketsServeds.html">Markets served</a>
                       </li>
                     </ul>
                   </li>
@@ -197,21 +199,8 @@
       </div>
     </header>
     <!-- Breadcrumbs -->
-    <section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(images/bg-about-us.jpg);">
-      <div class="breadcrumbs-custom-inner">
-        <div class="container breadcrumbs-custom-container">
-          <div class="breadcrumbs-custom-main">
-            <h6 class="breadcrumbs-custom-subtitle title-decorated">Contacts</h6>
-            <h1 class="breadcrumbs-custom-title">Contacts</h1>
-          </div>
-          <ul class="breadcrumbs-custom-path">
-            <li><a href="index.html">Home</a></li>
-            <li class="active">Contacts</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="section section-sm">
+
+    <!--<section class="section section-sm">
       <div class="container">
         <div class="layout-bordered">
           <div class="layout-bordered-item wow-outer">
@@ -237,83 +226,105 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="section bg-gray-100">
-      <div class="range justify-content-xl-between">
-        <div class="cell-xl-6 align-self-center container">
-          <div class="row">
-            <div class="col-lg-9 cell-inner">
-              <div class="section-lg">
-                <h3 class="wow-outer"><span class="wow slideInDown">Contact Us</span></h3>
-                <!-- RD Mailform-->
-                <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact"
-                  method="post" action="bat/rd-mailform.php">
-                  <div class="row row-10">
-                    <div class="col-md-6 wow-outer">
-                      <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="contact-first-name">First Name</label>
-                        <input class="form-input" id="contact-first-name" type="text" name="name"
-                          data-constraints="@Required">
+    </section>-->
+    <section class="contacts-main-section">
+      <div class="row">
+        <div class="col-6 form-col">
+          <div class="range justify-content-xl-between">
+            <div class="cell-xl-12 align-self-center container">
+              <div class="row">
+                <div class="col-lg-12 cell-inner">
+                  <div class="section-lg">
+                    <h5 class="wow-outer"><span class="wow slideInDown title-decorated">Contact Us</span></h5>
+                    <h1 class="form-title-h1">Why People choose us<span class="border-span1"></span></h1>
+                    <!-- RD Mailform-->
+                    <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact"
+                      method="post" action="bat/rd-mailform.php">
+                      <div class="row row-10">
+                        <div class="col-md-6 wow-outer">
+                          <div class="form-wrap wow fadeSlideInUp">
+                            <label class="form-label-outside" for="contact-first-name">First Name</label>
+                            <input class="form-input" id="contact-first-name" type="text" name="name"
+                              data-constraints="@Required">
+                          </div>
+                        </div>
+                        <div class="col-md-6 wow-outer">
+                          <div class="form-wrap wow fadeSlideInUp">
+                            <label class="form-label-outside" for="contact-last-name">Last Name</label>
+                            <input class="form-input" id="contact-last-name" type="text" name="name"
+                              data-constraints="@Required">
+                          </div>
+                        </div>
+                        <div class="col-md-6 wow-outer">
+                          <div class="form-wrap wow fadeSlideInUp">
+                            <label class="form-label-outside" for="contact-email">E-mail</label>
+                            <input class="form-input" id="contact-email" type="email" name="email"
+                              data-constraints="@Email @Required">
+                          </div>
+                        </div>
+                        <div class="col-md-6 wow-outer">
+                          <div class="form-wrap wow fadeSlideInUp">
+                            <label class="form-label-outside" for="contact-phone">Phone</label>
+                            <input class="form-input" id="contact-phone" type="text" name="phone"
+                              data-constraints="@PhoneNumber">
+                          </div>
+                        </div>
+                        <div class="col-12 wow-outer">
+                          <div class="form-wrap wow fadeSlideInUp">
+                            <label class="form-label-outside" for="contact-message">Your Message</label>
+                            <textarea class="form-input" id="contact-message" name="message"
+                              data-constraints="@Required"></textarea>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 wow-outer">
-                      <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="contact-last-name">Last Name</label>
-                        <input class="form-input" id="contact-last-name" type="text" name="name"
-                          data-constraints="@Required">
+                      <div class="group group-middle">
+                        <div class="wow-outer">
+                          <button class="button button-primary button-winona wow slideInRight" type="submit">Send
+                            Message</button>
+                        </div>
+                        <p>or use</p>
+                        <div class="wow-outer"><a
+                            class="button button-primary-outline button-icon button-icon-left button-winona wow slideInLeft"
+                            href="#"><span class="icon text-primary mdi mdi-facebook-messenger"></span>Messenger</a>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 wow-outer">
-                      <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="contact-email">E-mail</label>
-                        <input class="form-input" id="contact-email" type="email" name="email"
-                          data-constraints="@Email @Required">
-                      </div>
-                    </div>
-                    <div class="col-md-6 wow-outer">
-                      <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="contact-phone">Phone</label>
-                        <input class="form-input" id="contact-phone" type="text" name="phone"
-                          data-constraints="@PhoneNumber">
-                      </div>
-                    </div>
-                    <div class="col-12 wow-outer">
-                      <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="contact-message">Your Message</label>
-                        <textarea class="form-input" id="contact-message" name="message"
-                          data-constraints="@Required"></textarea>
-                      </div>
-                    </div>
+                    </form>
                   </div>
-                  <div class="group group-middle">
-                    <div class="wow-outer">
-                      <button class="button button-primary button-winona wow slideInRight" type="submit">Send
-                        Message</button>
-                    </div>
-                    <p>or use</p>
-                    <div class="wow-outer"><a
-                        class="button button-primary-outline button-icon button-icon-left button-winona wow slideInLeft"
-                        href="#"><span class="icon text-primary mdi mdi-facebook-messenger"></span>Messenger</a></div>
-                  </div>
-                </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="cell-xl-5 height-fill wow fadeIn">
-          <section class="section">
-            <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45."
-              data-styles="[{&quot;featureType&quot;:&quot;all&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:&quot;32&quot;},{&quot;lightness&quot;:&quot;-3&quot;},{&quot;visibility&quot;:&quot;on&quot;},{&quot;weight&quot;:&quot;1.18&quot;}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;landscape.man_made&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:&quot;-70&quot;},{&quot;lightness&quot;:&quot;14&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:&quot;100&quot;},{&quot;lightness&quot;:&quot;-14&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;},{&quot;lightness&quot;:&quot;12&quot;}]}]">
-              <div class="google-map"></div>
-              <ul class="google-map-markers">
-                <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45."
-                  data-description="9870 St Vincent Place, Glasgow" data-icon="images/gmap_marker.png"
-                  data-icon-active="images/gmap_marker_active.png"></li>
-              </ul>
-            </div>
-          </section>
+        <div class="col-6 image-col">
+          <div class="contact-text-div">
+            <img class="contact-image" src="images/contact8.jpg" alt="" width="" height="" />
+            <h3 class=" wow slideInUp">Where to find us?</h3>
+            <span class="border-span2"></span>
+            <br>
+            <br>
+            <br>
+            <ul>
+              <li class="li-title wow slideInUp">Where we are?</li><br>
+              <li>
+                <p> Main :2033 Gateway PL suit 500, San Jose CA95112
+                  Branch: Daly City
+                </p>
+              </li>
+              <br>
+              <li class="li-title  wow slideInUp">How to reach out?</li><br>
+              <li>+1 (855)515 - 4666</li>
+              <li>+1 (650)240 - 2666</li>
+              <br>
+              <li class="li-title  wow slideInUp">Emails</li><br>
+              <li>Reservations@bnglimousine.com</li>
+              <li>Affiliates@bnglimousine.com</li>
+              <li>info@bnglimousne.com</li>
+            </ul>
+          </div>
+
         </div>
       </div>
+
     </section>
     <!-- Page Footer-->
     <footer class="section footer-linked bg-black-750">
@@ -328,7 +339,7 @@
                   <ul class="list list-xs footer-quicklinks">
                     <li><a href="aboutUs.html">Who we are</a></li>
                     <li><a href="aboutUs.html">Why BNG</a></li>
-                    <li><a href="services.html">What we do</a></li>
+                    <li><a href="bngServices.html">What we do</a></li>
                     <li><a href="aboutUs.html">Fleet</a></li>
                     <li><a href="#associiations-and-partners">Partner with us</a></li>
                     <li><a href="contacts.html">Contact Us</a></li>
@@ -386,6 +397,14 @@
                   </ul>
                 </li>
               </ul>
+              <div class="row footer-icons-row">
+                <div class="col-4 footer-icons-col"><img class="footer-icons1" src="images/nla1.png" alt="" width=""
+                    height="" /></div>
+                <div class="col-4 footer-icons-col"><img class="footer-icons2" src="images/greaterCalfornia.png" alt=""
+                    width="" height="" /></div>
+                <div class="col-4 footer-icons-col"><img class="footer-icons3" src="images/ggti.png" alt="" width=""
+                    height="" /></div>
+              </div>
             </div>
           </div>
         </div>
@@ -393,7 +412,7 @@
       <div class="footer-linked-aside">
         <div class="container">
           <!-- Rights-->
-          <p class="rights">
+          <p class="rights text-center">
             <span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>All Rights
               Reserved.</span><span>&nbsp;</span><br class="d-sm-none" /><a href="#">Terms of Use</a><span>
               and</span><span>&nbsp;</span><a href="privacy-policy.html">Privacy Policy</a>

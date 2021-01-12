@@ -21,6 +21,26 @@
     width: 100%;
     height: 100%;
     padding: 4rem;
+    z-index: 15;
+}
+
+.heading-section-title-tags {
+    z-index: 15;
+}
+
+.heading-section-title-tags>h1,
+.heading-section-title-tags>h5 {
+    color: white;
+    z-index: 15;
+}
+
+.heading-section-title-tags>h1 {
+    font-size: 4.5rem;
+}
+
+.heading-section-title-tags>p {
+    color: rgba(210, 171, 44, 1);
+    font-size: 1.5rem;
 }
 
 .heading-section-title-div>h1 {
@@ -85,3 +105,209 @@
     transform: scale(1.22);
     border: 3px solid rgba(210, 171, 44, 1);
 }
+
+/*PLACES TITLE*/
+.tour-places-title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem;
+}
+
+/* PLACES */
+.places-heading-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.places-heading-main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.places-heading-title-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    text-align: right;
+}
+
+/* TOUR PLACES*/
+.tour-places-section {
+    margin: 2rem;
+}
+
+.tour-places-main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: url(../images/pattern1.png);
+    background-size: contain;
+}
+
+.tour-places-text-col1::before,
+.tour-places-text-col2::before,
+.tour-places-text-col3::before,
+.tour-places-text-col4::before,
+.tour-places-text-col5::before,
+.tour-places-text-col6::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tour-places-text-col1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/goldenGate4.jpg) no-repeat center;
+    background-size: cover;
+    height: 450px
+}
+
+.tour-places-text-col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/twinPeaks4.jpg) no-repeat center;
+    background-size: cover;
+    height: 450px
+}
+
+.tour-places-text-col3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/lombardSt4.jpg) no-repeat center;
+    background-size: cover;
+    height: 450px
+}
+
+.tour-places-text-col4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/fishermanWarf4.jpg) no-repeat center;
+    background-size: cover;
+    height: 450px
+}
+
+.tour-places-text-col1>h1,
+.tour-places-text-col2>h1,
+.tour-places-text-col3>h1,
+.tour-places-text-col4>h1,
+.tour-places-text-col5>h1,
+.tour-places-text-col6>h1 {
+    color: white;
+    z-index: 5;
+    padding: 0.5rem 3rem;
+    font-size: 40px;
+}
+
+.tour-places-text-col1>p,
+.tour-places-text-col2>p,
+.tour-places-text-col3>p,
+.tour-places-text-col4>p,
+.tour-places-text-col5>p,
+.tour-places-text-col6>p {
+    color: white;
+    z-index: 5;
+    padding: 0rem 2rem;
+    padding-bottom: 2rem;
+    font-size: 13px;
+}
+
+.tour-places-text-col1>span,
+.tour-places-text-col2>span,
+.tour-places-text-col3>span,
+.tour-places-text-col4>span,
+.tour-places-text-col5>span,
+.tour-places-text-col6>span {
+    font-weight: 600;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0.1rem 1rem;
+    z-index: 5;
+}
+
+.tour-places-carousel-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+.carousel-caption>h5,
+.carousel-caption>p {
+    z-index: 15;
+    color: rgb(0, 0, 0);
+
+}
+
+.carousel-caption {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.carousel .carousel-inner {
+    height: 450px
+}
+
+.carousel-inner .carousel-item img {
+    min-height: 200px;
+    /*//prevent it from stretch in screen size < than 768px*/
+    object-fit: cover
+}
+
+@media(max-width:768px) {
+    .carousel .carousel-inner {
+        /*//prevent it from adding a white space between carousel and container elements*/
+        height: auto
+    }
+}
+
+/* TOP PLACES */
+.topPlaces-section {
+    width: 100vw;
+    height: 150vh;
+    overflow: scroll;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.topPlaces-section>.coverLayer::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.item-div {
+    padding-top: 3rem;
+}
+
+/*.border-span {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 0.19rem 2.7rem;
+}*/

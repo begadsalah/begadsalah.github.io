@@ -1,5 +1,31 @@
 .footer-quicklinks,
 .footer-quicklinks>li>a,
 .footer-quicklinks>strong {
-    color: white !important;
+    color: white;
+}
+
+.footer-quicklinks>strong {
+    color: #c5c2c2fd;
+    font-weight: 300 !important;
+}
+
+.footer-icons-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons1 {
+    background-color: white;
+    padding: 0.4rem;
+}
+
+.footer-icons2 {
+    background-color: white;
+    padding: 0rem;
+    border-radius: 100%;
+}
+
+.icon-md {
+    color: rgb(210, 171, 44);
 }

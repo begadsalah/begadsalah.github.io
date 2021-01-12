@@ -1,0 +1,207 @@
+.heading-section {
+    background: url(../images/nikola-saliba-BonFa3wUrnU-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+}
+
+.heading-section::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.heading-section-title-div {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+    z-index: 15;
+}
+
+.heading-section-title-tags {
+    z-index: 15;
+}
+
+.heading-section-title-tags>h1,
+.heading-section-title-tags>h5 {
+    color: white;
+    z-index: 15;
+}
+
+.heading-section-title-tags>h1 {
+    font-size: 4.5rem;
+}
+
+/* CAROUSEL */
+.places-heading-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.places-heading-main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.places-heading-title-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    text-align: right;
+}
+
+/* TOUR PLACES*/
+.tour-places-section {
+    margin: 2rem;
+}
+
+.tour-places-main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: url(../images/pattern1.png);
+    background-size: contain;
+}
+
+.tour-places-text-col1::before,
+.tour-places-text-col2::before,
+.tour-places-text-col3::before,
+.tour-places-text-col4::before,
+.tour-places-text-col5::before,
+.tour-places-text-col6::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tour-places-text-col1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/family1.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    padding: 2rem;
+}
+
+.tour-places-text-col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/family4.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    padding: 2rem;
+}
+
+.tour-places-text-col1>h2,
+.tour-places-text-col2>h2,
+.tour-places-text-col3>h2,
+.tour-places-text-col4>h2,
+.tour-places-text-col5>h2,
+.tour-places-text-col6>h2 {
+    color: white;
+    z-index: 5;
+    padding: 0.5rem 3rem;
+    font-size: 25px;
+}
+
+.tour-places-text-col1>p,
+.tour-places-text-col2>p,
+.tour-places-text-col3>p,
+.tour-places-text-col4>p,
+.tour-places-text-col5>p,
+.tour-places-text-col6>p {
+    color: white;
+    z-index: 5;
+    padding: 0rem 2rem;
+    padding-bottom: 2rem;
+    font-size: 16px;
+}
+
+.tour-places-text-col1>ul,
+.tour-places-text-col2>ul,
+.tour-places-text-col3>ul,
+.tour-places-text-col4>ul,
+.tour-places-text-col5>ul,
+.tour-places-text-col6>ul {
+    color: white;
+    z-index: 5;
+    padding: 0rem 2rem;
+    padding-bottom: 2rem;
+    font-size: 16px;
+}
+
+.tour-places-text-col1>ul>li>span,
+.tour-places-text-col1>ul>li>span {
+    color: rgba(210, 171, 44, 1);
+}
+
+.tour-places-text-col1>span,
+.tour-places-text-col2>span,
+.tour-places-text-col3>span,
+.tour-places-text-col4>span,
+.tour-places-text-col5>span,
+.tour-places-text-col6>span {
+    font-weight: 600;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0.1rem 1rem;
+    z-index: 5;
+}
+
+.tour-places-carousel-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+.carousel-caption>h5,
+.carousel-caption>p {
+    z-index: 15;
+    color: rgb(0, 0, 0);
+
+}
+
+.carousel-caption {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.carousel .carousel-inner {
+    height: 450px
+}
+
+.carousel-inner .carousel-item img {
+    min-height: 200px;
+    /*//prevent it from stretch in screen size < than 768px*/
+    object-fit: cover
+}
+
+@media(max-width:768px) {
+    .carousel .carousel-inner {
+        /*//prevent it from adding a white space between carousel and container elements*/
+        height: auto
+    }
+}
