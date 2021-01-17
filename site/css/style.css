@@ -519,7 +519,7 @@ code {
 
 @media (min-width: 768px) {
   .text-extra-large {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 
@@ -548,7 +548,7 @@ code {
 
 @media (min-width: 768px) {
   .text-extra-large-title {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 
@@ -19340,4 +19340,5 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  margin: 3rem 0;
 }
