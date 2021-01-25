@@ -1,5 +1,5 @@
 .heading-section {
-    background: url(../images/wwa-image2.jpg) no-repeat center;
+    background: url("../images/home-about-1 (1).jpg") no-repeat center;
     background-size: cover;
     width: 100vw;
     height: 95vh;
@@ -10,7 +10,7 @@
     position: absolute;
     width: 100vw;
     height: 95vh;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .heading-section-title-div {
@@ -75,6 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .upper-section-left-col-image-div {
@@ -92,7 +93,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(../images/pattern1.png)no-repeat center;
+    background: url(../images/pattern8.png)no-repeat center;
     background-size: contain;
     padding: 1rem
 }
@@ -119,6 +120,10 @@
     text-align: center;
     color: white;
     margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .left-col-para-div {
@@ -204,6 +209,13 @@
     filter: brightness(120%);
 }
 
+.details-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
 .details-title>h3 {
     margin-bottom: -0.5rem;
 }
@@ -212,13 +224,14 @@
     font-size: 0rem;
     font-weight: 600;
     text-align: center;
-    background-color: rgb(88, 88, 88);
-    padding: 0.19rem 2.7rem;
+    background-color: rgb(58, 58, 58);
+    padding: 0.15rem 2.7rem;
+    margin: 0 1rem;
 }
 
 .details-title2>h3 {
     margin-bottom: 0.5rem;
-    text-align: right;
+    text-align: left;
 }
 
 .details-title2 {
@@ -276,7 +289,7 @@
 }
 
 .h24-para-div>p {
-    text-align: right;
+    text-align: left;
     width: 30rem;
 }
 
@@ -334,6 +347,10 @@
 
 .lower-section-title-col>h1 {
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .lower-section-carsPart {
@@ -400,4 +417,8 @@
     padding: 0 !important;
     margin: 0 !important;
     object-fit: cover;
+}
+
+.icon-image {
+    margin: 0.3rem 0;
 }

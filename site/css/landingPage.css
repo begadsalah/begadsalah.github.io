@@ -89,7 +89,7 @@
 }
 
 .about-us-text-col {
-    background: url(../images/pattern1.png);
+    background: url(../images/pattern8.png);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -197,6 +197,9 @@
 
 .associations-partners-section-main-row {
     z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .gallery-readMore {
@@ -422,7 +425,7 @@ figure.effect-bubba:hover p {
 }
 
 .services-section>.container>.row>.col-5 {
-    background: url(../images/pattern1.png);
+    background: url(../images/pattern8.png);
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -430,7 +433,7 @@ figure.effect-bubba:hover p {
     height: 100%;
     flex-direction: column;
     padding: 3rem;
-    text-align: right;
+    text-align: left;
 }
 
 .services-section>.container>.row>.col-5>p {
@@ -439,4 +442,22 @@ figure.effect-bubba:hover p {
 
 .whatWeDo-section {
     margin-bottom: 4rem;
+}
+
+.whatWeDo-section-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thumbnail-modern-image:hover {
+    filter: brightness(50%);
+}
+
+.tabs-section-title-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

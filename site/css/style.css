@@ -108,8 +108,7 @@ html p a:hover {
 * Typography
 */
 body {
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
   line-height: 1.7;
   font-weight: 300;
@@ -195,7 +194,7 @@ h1,
   font-size: 30px;
   line-height: 1.15;
   letter-spacing: 0.05em;
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
 }
 
@@ -243,7 +242,7 @@ h1,
 
 h2,
 .heading-2 {
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   font-size: 30px;
   line-height: 1.4;
@@ -280,7 +279,7 @@ h3,
   font-size: 24px;
   line-height: 1.3;
   letter-spacing: 0;
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -355,8 +354,7 @@ h5,
 
 h6,
 .heading-6 {
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
   line-height: 1.8;
   color: #aeb1be;
@@ -458,8 +456,7 @@ code {
 }
 
 .text-large {
-  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 0;
@@ -597,8 +594,7 @@ p .text-width-1 {
 }
 
 .text-font-sec {
-  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   letter-spacing: 0.15em;
 }
 
@@ -672,8 +668,7 @@ p .text-width-1 {
 }
 
 .hidden-info {
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 @media (max-width: 575.98px) {
@@ -683,7 +678,7 @@ p .text-width-1 {
 }
 
 .text-title-footer {
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
 }
 
@@ -1853,8 +1848,7 @@ html .list-inline-md>* {
   margin-bottom: -10px;
   margin-left: -10px;
   margin-right: -10px;
-  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 0.875em;
   letter-spacing: 0.08em;
@@ -2332,8 +2326,7 @@ hr {
   line-height: 1.25;
   border: 2px solid;
   border-radius: 6px;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -2580,8 +2573,7 @@ html .button.button-primary-lighten:active {
 
 .btn-primary {
   border-radius: 3px;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -3873,7 +3865,7 @@ textarea.form-input {
 .post-light-time-big {
   font-size: 2.8125em;
   font-weight: 500;
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: sans-serif;
 }
 
 .post-light-time-small {
@@ -4057,8 +4049,7 @@ a.post-tiny-media:hover::before {
 }
 
 .post-creative-title {
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 .post-creative-meta {
@@ -5575,8 +5566,7 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
   padding: 10px 10px;
   border: 0;
   border-radius: 6px;
-  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.71429;
@@ -6146,7 +6136,7 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
 }
 
 .pricing-modern-table td:first-child {
-  text-align: right;
+  text-align: left;
   color: #7a7a7a;
 }
 
@@ -6946,8 +6936,7 @@ html:not(.tablet):not(.mobile) .profile-minimal-caption {
 }
 
 .counter-minimal-main {
-  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 36px;
   font-weight: 500;
   line-height: 1.2;
@@ -7307,7 +7296,7 @@ input.select2-input-gray::placeholder {
 }
 
 .timeline-classic-item-title {
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: sans-serif;
   font-size: 30px;
   line-height: 1.2;
   font-weight: 700;
@@ -7789,7 +7778,7 @@ input.select2-input-gray::placeholder {
   transform-origin: center;
   transform: translate(-50%, -50%);
   font-size: 250px;
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: sans-serif;
   text-transform: capitalize;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.1);
@@ -13820,8 +13809,7 @@ google-map-container {
 .rd-search-results-live .search-quick-result {
   padding-left: 15px;
   padding-right: 15px;
-  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.08em;
@@ -13881,8 +13869,7 @@ google-map-container {
   margin: 0 -1px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.05em;
@@ -15144,8 +15131,7 @@ google-map-container {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 14px !important;
   line-height: 1.2 !important;
   color: #868e96;
@@ -16789,7 +16775,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   display: block;
   white-space: pre;
   padding: 4px 12px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 12px;
 }
 
@@ -17825,7 +17811,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   display: block;
   white-space: pre;
   padding: 4px 12px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 12px;
 }
 
@@ -18932,8 +18918,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .c3 text {
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
   fill: #9b9b9b;
   user-select: none;
@@ -19093,7 +19078,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .c3-tooltip td.value {
-  text-align: right;
+  text-align: left;
 }
 
 /*-- Area --*/
@@ -19279,7 +19264,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: right;
+  text-align: left;
 }
 
 .associations-partners-section-text-col>p {
@@ -19341,4 +19326,17 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   align-items: center;
   flex-direction: row;
   margin: 3rem 0;
+}
+
+.underline-span {
+  background-color: rgba(210, 171, 44, 1);
+  padding: 0.2rem 3rem;
+  margin: 1.5rem 0.5rem;
+}
+
+.whyBngH1 {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  flex-direction: column !important;
 }

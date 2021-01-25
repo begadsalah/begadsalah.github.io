@@ -77,6 +77,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .upper-section-left-col-image-div {
@@ -90,12 +91,12 @@
 .upper-section-right-col,
 .upper-section-right-col-para-div {
 
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(../images/pattern1.png)no-repeat center;
+  background: url(../images/pattern8.png)no-repeat center;
   background-size: contain;
   padding: 1rem
 }
