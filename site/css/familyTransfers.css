@@ -88,7 +88,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .tour-places-text-col1 {
@@ -164,7 +164,7 @@
 .tour-places-text-col6>span {
     font-weight: 600;
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgba(210, 171, 44, 1);
     padding: 0.1rem 1rem;
     z-index: 5;
 }
@@ -205,3 +205,138 @@
         height: auto
     }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .tour-places-text-col1>h2,
+    .tour-places-text-col2>h2,
+    .tour-places-text-col3>h2,
+    .tour-places-text-col4>h2,
+    .tour-places-text-col5>h2,
+    .tour-places-text-col6>h2 {
+        color: white;
+        z-index: 5;
+        padding: 0.5rem 0.5rem;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .tour-places-text-col1>p,
+    .tour-places-text-col2>p,
+    .tour-places-text-col3>p,
+    .tour-places-text-col4>p,
+    .tour-places-text-col5>p,
+    .tour-places-text-col6>p {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 12px;
+    }
+
+    .tour-places-text-col1>ul,
+    .tour-places-text-col2>ul,
+    .tour-places-text-col3>ul,
+    .tour-places-text-col4>ul,
+    .tour-places-text-col5>ul,
+    .tour-places-text-col6>ul {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 12px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and(max-width: 768px) {
+
+    .tour-places-text-col1>h2,
+    .tour-places-text-col2>h2,
+    .tour-places-text-col3>h2,
+    .tour-places-text-col4>h2,
+    .tour-places-text-col5>h2,
+    .tour-places-text-col6>h2 {
+        color: white;
+        z-index: 5;
+        padding: 0.5rem 0.5rem;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .tour-places-text-col1>p,
+    .tour-places-text-col2>p,
+    .tour-places-text-col3>p,
+    .tour-places-text-col4>p,
+    .tour-places-text-col5>p,
+    .tour-places-text-col6>p {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 12px;
+    }
+
+    .tour-places-text-col1>ul,
+    .tour-places-text-col2>ul,
+    .tour-places-text-col3>ul,
+    .tour-places-text-col4>ul,
+    .tour-places-text-col5>ul,
+    .tour-places-text-col6>ul {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and(max-width: 1090px) {
+
+    .tour-places-text-col1>h2,
+    .tour-places-text-col2>h2,
+    .tour-places-text-col3>h2,
+    .tour-places-text-col4>h2,
+    .tour-places-text-col5>h2,
+    .tour-places-text-col6>h2 {
+        color: white;
+        z-index: 5;
+        padding: 0.5rem 0.5rem;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .tour-places-text-col1>p,
+    .tour-places-text-col2>p,
+    .tour-places-text-col3>p,
+    .tour-places-text-col4>p,
+    .tour-places-text-col5>p,
+    .tour-places-text-col6>p {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 12px;
+    }
+
+    .tour-places-text-col1>ul,
+    .tour-places-text-col2>ul,
+    .tour-places-text-col3>ul,
+    .tour-places-text-col4>ul,
+    .tour-places-text-col5>ul,
+    .tour-places-text-col6>ul {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 12px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

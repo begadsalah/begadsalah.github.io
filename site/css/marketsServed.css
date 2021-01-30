@@ -70,3 +70,91 @@
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .row-reversed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+
+    .servedField-section>.row {
+        padding: 1rem;
+    }
+
+    .servedField-section>.row>col-12>h1 {
+        margin: 3rem 0;
+        border-bottom: 3px solid rgba(210, 171, 44, 1) !important;
+    }
+
+    .servedField-image {
+        width: 100%;
+        height: 350px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and(max-width: 768px) {
+    .row-reversed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+
+    .servedField-section>.row {
+        padding: 1rem;
+    }
+
+    .servedField-section>.row>col-12>h1 {
+        margin: 3rem 0;
+        border-bottom: 3px solid rgba(210, 171, 44, 1) !important;
+    }
+
+    .servedField-image {
+        width: 100%;
+        height: 350px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and(max-width: 1090px) {
+    .row-reversed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+
+    .servedField-section>.row {
+        padding: 1rem;
+    }
+
+    .servedField-section>.row>col-12>h1 {
+        margin: 3rem 0;
+        border-bottom: 3px solid rgba(210, 171, 44, 1) !important;
+    }
+
+    .servedField-image {
+        width: 100%;
+        height: 350px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -174,7 +174,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.67);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .tour-places-text-col1 {
@@ -231,7 +231,7 @@
 .tour-places-text-col3>span {
     font-weight: 600;
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgba(210, 171, 44, 1);
     padding: 0.1rem 1rem;
     z-index: 5;
 }
@@ -272,3 +272,67 @@
         height: auto
     }
 }
+
+/*------------------MEDIA QUIRES---------------------*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .tour-text-col {
+        text-align: center;
+        padding: 0.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .tour-places-text-col1>p,
+    .tour-places-text-col2>p,
+    .tour-places-text-col3>p {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 11px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and(max-width: 768px) {
+    .tour-text-col {
+        text-align: center;
+        padding: 0.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .tour-places-text-col1>p,
+    .tour-places-text-col2>p,
+    .tour-places-text-col3>p {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 11px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and(max-width: 1090px) {
+    .tour-text-col {
+        text-align: center;
+        padding: 0.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .tour-places-text-col1>p,
+    .tour-places-text-col2>p,
+    .tour-places-text-col3>p {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 11px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

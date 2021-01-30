@@ -273,7 +273,7 @@
 .tour-places-text-col6>span {
     font-weight: 600;
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgba(210, 171, 44, 1);
     padding: 0.1rem 1rem;
     z-index: 5;
 }
@@ -314,3 +314,79 @@
         height: auto
     }
 }
+
+/*---------------MEDIA QUIRES------------------*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .tour-places-text-col1>p,
+    .tour-places-text-col2>p,
+    .tour-places-text-col3>p,
+    .tour-places-text-col4>p,
+    .tour-places-text-col5>p,
+    .tour-places-text-col6>p {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 10px;
+    }
+
+    .tour-text-col {
+        padding: 0rem;
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and(max-width: 768px) {
+
+    .tour-places-text-col1>p,
+    .tour-places-text-col2>p,
+    .tour-places-text-col3>p,
+    .tour-places-text-col4>p,
+    .tour-places-text-col5>p,
+    .tour-places-text-col6>p {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 10px;
+    }
+
+    .tour-text-col {
+        padding: 0rem;
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and(max-width: 1090px) {
+
+    .tour-places-text-col1>p,
+    .tour-places-text-col2>p,
+    .tour-places-text-col3>p,
+    .tour-places-text-col4>p,
+    .tour-places-text-col5>p,
+    .tour-places-text-col6>p {
+        color: white;
+        z-index: 5;
+        padding: 0rem 0rem;
+        padding-bottom: 2rem;
+        font-size: 10px;
+    }
+
+    .tour-text-col {
+        padding: 0rem;
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

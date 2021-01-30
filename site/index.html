@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/style.css" id="main-styles-link" />
   <link rel="stylesheet" href="css/landingPage.css" />
   <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/isotope.css" />
   <!--[if lt IE 10]>
       <div
         style="
@@ -63,15 +64,10 @@
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-NaN">
                   <span></span>
                 </button>
-                <!-- RD Navbar Brand--><a class="rd-navbar-brand" href="index.html"><img src="images/bngLogo18.png"
-                    alt="" width="185" height="100" srcset="images/bngLogo18.png 2x" /></a>
+                <!-- RD Navbar Brand--><a class="rd-navbar-brand" href="index.html"><img src="images/bngLogo20.jpg"
+                    alt="" width="210" height="90" srcset="images/bngLogo20.jpg 2x" /></a>
                 <div class="rd-navbar-block">
                   <ul class="list-inline-bordered">
-                    <li
-                      class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-366 current_page_item menu-item-503">
-                      <a href="https://limoinsf.com/booking/" aria-current="page"><span class="mdi mdi-pencil"></span>
-                        Book Now</a></li>
-                    <!--
                     <li>
                       <button class="rd-navbar-popup-toggle text-uppercase font-weight-light"
                         data-rd-navbar-toggle="#rd-navbar-login-NaN">
@@ -103,7 +99,7 @@
                           </div>
                         </form>
                       </div>
-                    </li>-->
+                    </li>
                     <li>
                       <a class="link-title" href="tel:#"><span class="mdi mdi-cellphone-android"><span
                             class="text-subtitle hidden-info font-weight-light">
@@ -112,7 +108,7 @@
                     <li>
                       <a class="link-title" href="tel:#"><span class="mdi mdi-tooltip-text"><span
                             class="text-subtitle hidden-info font-weight-light">
-                            Get Your Free Quote Call +1-800-1234-567</span></span></a>
+                            Get Your Free Quote Call +18555154666</span></span></a>
                     </li>
 
                   </ul>
@@ -168,12 +164,6 @@
                       <li class="rd-dropdown-item">
                         <a class="rd-dropdown-link" href="wineTour.html">Wine tours</a>
                       </li>
-                      <li class="rd-dropdown-item">
-                        <a class="rd-dropdown-link" href="#">Silicon Valley tours</a>
-                      </li>
-                      <li class="rd-dropdown-item">
-                        <a class="rd-dropdown-link" href="#">As directed/ Customized tour</a>
-                      </li>
                     </ul>
                   </li>
                   <li class="rd-nav-item">
@@ -221,29 +211,25 @@
       </div>
     </header>
     <!--Header section-->
-    <section class="section jumbotron-modern bg-gray-700 bg-image landing-page-main-image"
-      style="background-image: url(images/marketsServed3.jpg)">
-      <div class="jumbotron-modern-inner">
-        <div class="container">
-          <div class="jumbotron-modern-content">
-            <h1 class="text-extra-large-title wow-outer font-weight-bold">
-              <span class="wow slideInUp bng-title-h1">BNG</span>
-            </h1>
-            <!--<h4 class="text-normal font-weight-light wow-outer">
-              <span class="wow slideInDown">Limousine in San Francisco</span>
-            </h4>-->
-            <div class="jumbotron-bg-text"></div>
-          </div>
-        </div>
+    <section class="landing-page-main-image"><video autoplay id="myVideo">
+        <source src="images/homePageVideo.mp4" type="video/mp4" />
+      </video>
+      <!-- Optional: some overlay text to describe the video -->
+      <div class="content video-content">
+        <h1 class="bng-title-h1">
+          <span class="wow slideInUp">BNG</span>
+        </h1>
+        <!-- Use a button to pause/play the video with JavaScript -->
+        <button class="" id="myBtn" onclick="myFunction()">Pause</button>
       </div>
     </section>
     <!-- About our Company-->
     <section class="section section-sm">
       <div class="container">
         <div class="row row-50 justify-content-center justify-content-lg-between flex-lg-row-reverse about-us-main-row">
-          <div class="col-4 about-us-text-col wow slideInDown">
+          <div class="col-12 col-lg-4 about-us-text-col wow slideInRight">
             <h2 class="wow-outer font-weight-bold text-gray-800">
-              <span class="wow slideInRight text-extra-large-title">About <span class="golden-span"></span></span>
+              <span class="wow slideInRight heading-title-font">About <span class="golden-span"></span></span>
             </h2>
             <span class="underline-span"></span>
             <p class="wow-outer">
@@ -255,14 +241,8 @@
               </span>
               <div class="button button-sm button-primary-outline button-winona">Read More</div>
             </p>
-            <!-- <p class="wow-outer">
-              <span class="wow slideInDown" data-wow-delay=".1s">Our company offers an innovative and useful online
-                cruise
-                booking experience, so you can find your perfect destination
-                in just a couple of clicks!</span>
-            </p>-->
           </div>
-          <div class="col-7 tour-places-carousel-col">
+          <div class="col-12 col-lg-7 tour-places-carousel-col">
             <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
@@ -278,7 +258,7 @@
 
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100 carousel-image" src="./images/home-about-1 (3).jpg" alt="Third slide">
+                  <img class="d-block w-100 carousel-image" src="./images/home-about-3.jpg" alt="Third slide">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
@@ -297,10 +277,10 @@
         </div>
       </div>
     </section>
-    <!-- What Awaits You-->
-    <section class="section section-lg awaitsU-section bg-image bg-image-3 left-pattern">
+    <!-- WHY BNG-->
+    <!--<section class="section section-lg awaitsU-section bg-image bg-image-3 left-pattern">
       <div class="row awaitsU-main-row">
-        <div class="col-5 whyBngH1">
+        <div class="col-12 col-lg-5 whyBngH1">
           <h2 class="text-extra-large-title wow slideInLeft" style="color: white;">Why BNG</h2>
           <span class="underline-span" style="margin:2rem 0;"></span>
           <p>You can just find us a phone call away. You do not have to wait for us to pick up, coz it is like, and we
@@ -308,87 +288,95 @@
           <button class="button button-sm button-primary-outline button-winona" id="myBtn"
             onclick="myFunction()">Pause</button>
         </div>
-        <div class="col-7 awaitsU-video-col"><video id="myVideo">
+        <div class="col-12 col-lg-7 awaitsU-video-col"><video id="myVideo">
             <source src="images/whatAwaitsU1.mp4" type="video/mp4" />
           </video>
-          <!-- Optional: some overlay text to describe the video -->
-        </div>
-    </section>
-    <!-- Light 4 Columns Layout-->
-    <section class="whatWeDo-section section section-sm left-pattern">
+  </div>
+  </section>-->
+    <!--What we do-->
+    <section class="whatWeDo-section section section-sm">
       <div class="container">
-        <div class="row row-30 row-xxl-70 offset-top-2">
+        <div class="row">
           <div class="col-12">
             <h1 class="wow-outer font-weight-bold text-gray-800 text-extra-large-title text-center whatWeDo-section-h2">
               What we do<span class="underline-span"></span></h1>
-
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+        </div>
+        <div class="row row-30 row-xxl-70 offset-top-2 icons-row-div">
+          <div class="col-sm-5 col-md-4 col-lg-3 wow-outer">
             <!-- Box Light-->
             <article class="box-light wow slideInLeft">
-              <div class=""><img class="icons" src="./icons/icon9.svg" alt="" width="80" height="80"
-                  srcset="images//icons/icon9.svg 2x" /></div>
-              <h4 class="text-gray-800 box-light-title">Technology</h4>
+              <div class=""><img class="icons" src="./icons/method-draw-image (8).svg" alt="" width="80" height="80"
+                  srcset="images//icons/method-draw-image (8).svg 2x" /></div>
+              <h4 class="text-gray-800 box-light-title" style="font-size:19px !important; font-weight: 600 ;">Technology
+              </h4>
             </article>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+          <div class="col-sm-5 col-md-4 col-lg-3 wow-outer">
             <!-- Box Light-->
             <article class="box-light wow slideInLeft" data-wow-delay=".05s">
-              <div class=""><img class="icons" src="./icons/icon2.svg" alt="" width="80" height="80"
-                  srcset="images//icons/icon2.svg 2x" /></div>
-              <h4 class="text-gray-800 box-light-title">24/7 dedicated team</h4>
+              <div class=""><img class="icons" src="./icons/method-draw-image (1).svg" alt="" width="80" height="80"
+                  srcset="images//icons/method-draw-image (1).svg 2x" /></div>
+              <h4 class="text-gray-800 box-light-title" style="font-size:19px !important; font-weight: 600 ;">24/7
+                dedicated team</h4>
             </article>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+          <div class="col-sm-5 col-md-4 col-lg-3 wow-outer">
             <!-- Box Light-->
             <article class="box-light wow slideInLeft" data-wow-delay=".1s">
-              <div class=""><img class="icons" src="./icons/icon4.svg" alt="" width="80" height="80"
-                  srcset="images/icons/icon4.svg 2x" /></div>
-              <h4 class="text-gray-800 box-light-title">Screening & Training</h4>
+              <div class=""><img class="icons" src="./icons/method-draw-image (2).svg" alt="" width="80" height="80"
+                  srcset="images/icons/method-draw-image (2).svg 2x" /></div>
+              <h4 class="text-gray-800 box-light-title" style="font-size:19px !important; font-weight: 600 ;">Screening
+                & Training</h4>
             </article>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+          <div class="col-sm-5 col-md-4 col-lg-3 wow-outer">
             <!-- Box Light-->
             <article class="box-light wow slideInLeft" data-wow-delay=".15s">
-              <div class=""><img class="icons" src="./icons/icon7.svg" alt="" width="80" height="80"
-                  srcset="images/icons/icon7.svg 2x" /></div>
-              <h4 class="text-gray-800 box-light-title">Outstanding Fleet</h4>
+              <div class=""><img class="icons" src="./icons/method-draw-image (3).svg" alt="" width="80" height="80"
+                  srcset="images/icons/method-draw-image (3).svg 2x" /></div>
+              <h4 class="text-gray-800 box-light-title" style="font-size:19px !important; font-weight: 600 ;">
+                Outstanding Fleet</h4>
             </article>
           </div>
         </div>
       </div>
       <div class="container">
-        <div class="row row-30 row-xxl-70 offset-top-2">
-          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+        <div class="row row-30 row-xxl-70 offset-top-2 icons-row-div">
+          <div class="col-sm-5 col-md-4 col-lg-3 wow-outer">
             <!-- Box Light-->
             <article class="box-light wow slideInLeft">
-              <div class=""><img class="icons" src="./icons/icon11.svg" alt="" width="80" height="80"
-                  srcset="images/icons/icon1.svg 2x" /></div>
-              <h4 class="text-gray-800 box-light-title">Friendly Managers</h4>
+              <div class=""><img class="icons" src="./icons/method-draw-image (4).svg" alt="" width="80" height="80"
+                  srcset="images/icons/method-draw-image (4).svg 2x" /></div>
+              <h4 class="text-gray-800 box-light-title" style="font-size:19px !important; font-weight: 600 ;">Friendly
+                Managers</h4>
             </article>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+          <div class="col-sm-5 col-md-4 col-lg-3 wow-outer">
             <!-- Box Light-->
             <article class="box-light wow slideInLeft" data-wow-delay=".05s">
-              <div class=""><img class="icons" src="./icons/icon13.svg" alt="" width="80" height="80"
-                  srcset="images/icons/icon13.svg 2x" /></div>
-              <h4 class="text-gray-800 box-light-title">Flexible Prices</h4>
+              <div class=""><img class="icons" src="./icons/method-draw-image (5).svg" alt="" width="80" height="80"
+                  srcset="images/icons/method-draw-image (5).svg 2x" /></div>
+              <h4 class="text-gray-800 box-light-title" style="font-size:19px !important; font-weight: 600 ;">Flexible
+                Prices</h4>
             </article>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+          <div class="col-sm-5 col-md-4 col-lg-3 wow-outer">
             <!-- Box Light-->
             <article class="box-light wow slideInLeft" data-wow-delay=".1s">
-              <div class=""><img class="icons" src="./icons/icon14.svg" alt="" width="80" height="80"
-                  srcset="images/icons/icon14.svg 2x" /></div>
-              <h4 class="text-gray-800 box-light-title">Lots of Cruises</h4>
+              <div class=""><img class="icons" src="./icons/method-draw-image (6).svg" alt="" width="80" height="80"
+                  srcset="images/icons/method-draw-image (6).svg 2x" /></div>
+              <h4 class="text-gray-800 box-light-title" style="font-size:19px !important; font-weight: 600 ;">Lost of
+                Packages</h4>
             </article>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+          <div class="col-sm-5 col-md-4 col-lg-3 wow-outer">
             <!-- Box Light-->
             <article class="box-light wow slideInLeft" data-wow-delay=".15s">
-              <div class=""><img class="icons" src="./icons/icon15.svg" alt="" width="80" height="80"
-                  srcset="images/icons/icon15.svg 2x" /></div>
-              <h4 class="text-gray-800 box-light-title">Online Booking</h4>
+              <div class=""><img class="icons" src="./icons/method-draw-image (7).svg" alt="" width="80" height="80"
+                  srcset="images/icons/method-draw-image (7).svg 2x" /></div>
+              <h4 class="text-gray-800 box-light-title" style="font-size:19px !important; font-weight: 600 ;">Online
+                Booking</h4>
             </article>
           </div>
         </div>
@@ -396,111 +384,119 @@
     </section>
     <!-- ASSCOIATIONS & PARTNERS -->
     <section
-      class="section section-lg text-center associations-partners-section bg-gray-100 bg-image bg-image-3 left-pattern"
-      id="associiations-and-partners">
-      <div class="row associations-partners-section-main-row">
-
-        <div class="col-5 tour-places-carousel-col">
-          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-              <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
-              <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
-              <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
-              <li data-target="#carouselExampleIndicators2" data-slide-to="6"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100 carousel-image" src="./images/limo2.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 carousel-image" src="./images/nla5.jpg" alt="Second slide">
-
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 carousel-image" src="./images/bbb4.png" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 carousel-image" src="./images/ggti2.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 carousel-image" src="./images/greaterCalfornia2.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 carousel-image" src="./images/eagle2.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 carousel-image" src="./images/verizonConnect2.jpg" alt="Third slide">
-              </div>
+      class="section section-lg text-center associations-partners-section bg-gray-100 bg-image bg-image-3 left-pattern">
+      <div class="container">
+        <h2 class="wow-outer font-weight-bold associations-partners-section-h2">Associations and Partners<span
+            class="underline-span"></span>
+        </h2>
+        <div class="slick-widget-testimonials wow fadeIn">
+          <div class="slick-slider carousel-child" id="child-carousel" data-for=".carousel-parent" data-arrows="true"
+            data-loop="true" data-dots="false" data-swipe="true" data-items="1" data-sm-items="3" data-md-items="5"
+            data-lg-items="5" data-xl-items="5" data-center-mode="true" data-slide-to-scroll="1">
+            <div class="item wow-outer"><img class="wow slideInLeft" src="images/limo2.jpg" alt="" />
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="item wow-outer"><img class="wow slideInLeft" src="images/nla5.jpg" alt="" />
+            </div>
+            <div class="item wow-outer"><img class="wow slideInLeft" src="images/bbb4.png" alt="" />
+            </div>
+            <div class="item wow-outer"><img class="wow slideInLeft" src="images/ggti2.jpg" alt="" />
+            </div>
+            <div class="item wow-outer"><img class="wow slideInLeft" src="images/greaterCalfornia2.jpg" alt="" />
+            </div>
+            <div class="item wow-outer"><img class="wow slideInLeft" src="images/eagle2.jpg" alt="" />
+            </div>
+            <div class="item wow-outer"><img class="wow slideInLeft" src="images/verizonConnect2.jpg" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="col-5 associations-partners-section-text-col ">
-          <h2 class="wow slideInRight text-large-title associations-partners-section-h2 text-center data-wow-delay="
-            .05s" style="font-size: 5rem; font-weight: 600;">Associations and
-            <span class="">Partners</span></h2><span class="wow slideInDown" data-wow-delay=".05s"></span>
-          <span class="underline-span"></span>
+          <!-- Slick Carousel-->
+
+          <div class="slick-slider carousel-parent" data-arrows="false" data-loop="true" data-dots="false"
+            data-swipe="false" data-items="1" data-fade="true" data-child="#child-carousel" data-for="#child-carousel">
+            <div class="item">
+              <blockquote class="quote-light">
+                <cite class="quote-light-cite" style="font-weight: 600;">Limo Anywhere</cite>
+                <p class="quote-light-caption"></p>
+                <div class="">
+                  <p></p>
+                </div>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote class="quote-light">
+                <cite class="quote-light-cite" style="font-weight: 600;">National Limousine Association</cite>
+                <p class="quote-light-caption"></p>
+                <div class="quote-light-text">
+                  <p></p>
+                </div>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote class="quote-light">
+                <cite class="quote-light-cite" style="font-weight: 600;">Better Business Bureau (BBB) accredited
+                  business</cite>
+                <p class="quote-light-caption"></p>
+                <div class="quote-light-text">
+                  <p></p>
+                </div>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote class="quote-light">
+                <cite class="quote-light-cite" style="font-weight: 600;">Global Ground Transportation Institute ( GGTI
+                  )</cite>
+                <p class="quote-light-caption"></p>
+                <div class="quote-light-text">
+                  <p></p>
+                </div>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote class="quote-light">
+                <cite class="quote-light-cite" style="font-weight: 600;">Greater California Livery Association</cite>
+                <p class="quote-light-caption"></p>
+                <div class="quote-light-text">
+                  <p>
+                  </p>
+                </div>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote class="quote-light">
+                <cite class="quote-light-cite" style="font-weight: 600;">
+                  Spirit of Enterprise | U.S. Chamber of Commerce</cite>
+                <p class="quote-light-caption"></p>
+                <div class="quote-light-text">
+                  <p></p>
+                </div>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote class="quote-light">
+                <cite class="quote-light-cite" style="font-weight: 600;">
+                  Verizon Connect</cite>
+                <p class="quote-light-caption"></p>
+                <div class="quote-light-text">
+                  <p></p>
+                </div>
+              </blockquote>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- <section
-      class="section section-lg text-center associations-partners-section bg-gray-100 bg-image bg-image-3 left-pattern"
-      id="associiations-and-partners">
-      <div class="row associations-partners-section-main-row">
-        <div class="col-5 associations-partners-section-text-col ">
-          <h2
-            class="wow slideInDown text-extra-large-title associations-partners-section-h2 text-center data-wow-delay="
-            .05s">Associations and
-            <span class="golden-span2">Partners</span></h2><span class="wow slideInDown" data-wow-delay=".05s"></span>
-
-        </div>
-        <div class="col-7 associations-partners-section-images-col">
-          <div class="row associations-partners-section-images-row">
-            <div class="col-4"><img class="associationsAndPartners-images wow slideInRight" src="images/limo.png" alt=""
-                width="130" height="" srcset="images/images/limo.png 2x" /></div>
-
-            <div class="col-4"><img class="associationsAndPartners-images wow slideInRight" src="images/nla1.png" alt=""
-                width="130" height="" srcset="images/images/nla1.png 2x" /></div>
-            <div class="col-4"><img class="associationsAndPartners-images wow slideInRight" src="images/bbb.png" alt=""
-                width="130" height="" srcset="images/images/bbb.png 2x" /></div>
-
-            <div class="col-4"><img class="associationsAndPartners-images wow slideInRight" src="images/ggti.png" alt=""
-                width="130" height="" srcset="images/images/ggti.png 2x" /></div>
-            <div class="col-4 gc-logo-image"><img class="associationsAndPartners-images wow slideInRight"
-                src="images/greaterCalfornia.png" alt="" width="130" height=""
-                srcset="images/imagesgreaterCalfornia.png 2x" /></div>
-            <div class="col-4"><img class="associationsAndPartners-images wow slideInRight" src="images/eagle.png"
-                alt="" width="120" height="" srcset="images/images/eagle.png 2x" /></div>
-            <div class="col-4"><img class="associationsAndPartners-images wow slideInRight"
-                src="images/verizonConnect.png" alt="" width="130" height=""
-                srcset="images/images/verizonConnect.png 2x" /></div>
-          </div>
-        </div>
-      </div>
-    </section>-->
-    <!--Services -->
+    <!--OUR Services -->
     <section class="section section-lg bg-image bg-image-3 left-pattern services-section">
       <div class="container">
         <div class="row">
-          <div class="col-5">
-            <h1 class="text-extra-large-title wow slideInLeft"><span class="">Our </span> Services<span
-                class="underline-span"></span></h1>
-
+          <div class="col-12 col-lg-12">
+            <h1 class="text-extra-large-title wow slideInLeft" style="font-size: 42px; display: flex; justify-content:center; align-items: center;
+            flex-direction: column; text-align: center; ">Our
+              Services<span class="underline-span"></span></h1>
           </div>
-          <div class="col-7 wow slideInLeft">
+          <div class="col-12 col-lg-12 wow slideInLeft">
             <div class="grid">
               <figure class="effect-bubba">
-                <img src="./images/gridImages2.jpg" alt="img02" />
+                <img src="./images/executive-transportaion12.jpg" alt="img02" />
                 <figcaption>
                   <h4>Executive<br><span>transfers</span></h4>
                   <p>we reach you anywhere anytime</p>
@@ -524,6 +520,22 @@
                 </figcaption>
               </figure>
               <figure class="effect-bubba">
+                <img src="./images/gridImages5.jpg" alt="img02" />
+                <figcaption>
+                  <h4>City <br><span>tours</span></h4>
+                  <!--<p>Bubba likes to appear out of thin air.</p>-->
+                  <a href="services.html">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-bubba">
+                <img src="./images/gridImages6.jpg" alt="img16" />
+                <figcaption>
+                  <h4>Wine<br><span>tour</span></h4>
+                  <!--<p>Bubba likes to appear out of thin air.</p>-->
+                  <a href="wineTour.html">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-bubba">
                 <img src="./images/arrow.jpg" alt="img16" />
                 <figcaption>
                   <h4>And Much <br><span>More</span></h4>
@@ -533,108 +545,133 @@
               </figure>
             </div>
           </div>
-
         </div>
     </section>
     <!--Most popular-->
-    <section>
-      <section class="section section-lg oh">
-        <div class="container">
-          <div class="row tabs-section-title-row">
-            <h1 class="text-extra-large-title">Most <span class=""> Popular</span></h1>
-            <span class="underline-span"></span>
-          </div>
-          <!-- Isotope Filters-->
-          <div class="isotope-filters isotope-filters-modern">
-            <button class="isotope-filters-toggle button button-sm button-primary" data-custom-toggle="#isotope-filters"
-              data-custom-toggle-disable-on-blur="true">Filter<span class="caret"></span></button>
-            <ul class="isotope-filters-list" id="isotope-filters">
-              <li><a class="active" data-isotope-filter="*" data-isotope-group="gallery" href="#">All</a></li>
-              <li><a data-isotope-filter="Type 1" data-isotope-group="gallery" href="airportTransfers.html">Airport
-                  Transfers </a></li>
-              <li><a data-isotope-filter="Type 2" data-isotope-group="gallery"
-                  href="executiveTransportation.html#roadShows">Road
-                  Shows</a></li>
-              <li><a data-isotope-filter="Type 3" data-isotope-group="gallery" href="aboutUs.html">Corporate </a></li>
-              <li><a data-isotope-filter="Type 4" data-isotope-group="gallery" href="wineTour.html">Wine tour </a></li>
-              <li><a data-isotope-filter="Type 5" data-isotope-group="gallery" href="services.html">City Tour</a></li>
-              <li><a data-isotope-filter="Type 6" data-isotope-group="gallery"
-                  href="executiveTransportation.html#hourly">As
-                  Directed / Hourly</a></li>
-            </ul>
-          </div>
-          <div class="isotope isotope-responsive row isotope isotope-condensed row hoverdir gallery-tabs-main-div"
-            data-isotope-layout="masonry" data-isotope-group="gallery" data-lightgallery="group">
-            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 3">
-              <a class="thumbnail-modern" href="images/corporate2.jpeg" data-lightgallery="item"><img
-                  class="thumbnail-modern-image" src="images/corporate2.jpeg" alt="" width="370" height="256" />
-                <div class="thumbnail-modern-caption"><span class="icon mdi mdi-magnify">Corporate</span></div>
-                <div class="thumbnail-modern-dummy">
+    <section class="mostPop-section">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="heading-title-font" style="display: flex; justify-content:center; align-items: center;
+          flex-direction: column; text-align: center; font-size: 42px;">Most Popular<span
+              class="underline-span"></span>
+          </h1>
+        </div>
+        <div class="col-12">
+          <div class="filter filter-basic">
+            <div class="filter-nav gallery-navs">
+              <button class="btn btn-success active filter-button" data-filter="">All</button>
+              <button class="btn btn-primary filter-button" data-filter="airport">Airport transfere</button>
+              <button class="btn btn-primary filter-button" data-filter="road">Road</button>
+              <button class="btn btn-primary filter-button" data-filter="corporate">Corporate</button>
+              <button class="btn btn-primary filter-button" data-filter="wine">Wine Tours</button>
+              <button class="btn btn-primary filter-button" data-filter="city">City Tours</button>
+              <button class="btn btn-primary filter-button" data-filter="houre">As
+                Directed / Hourly</button>
+            </div>
+            <div class="filter-gallery">
+              <div class="row grid2">
+                <div class="col-md-4 my-1">
+                  <div class="" data-category="airport">
+                    <div class="item-content">
+                      <figure class="effect-bubba">
+                        <img src="./images/airportTransfere-background3.jpg" alt="img02"
+                          class="img-fluid gallery-image1" />
+                        <figcaption>
+                          <h4 style="font-weight: 600;">Airport Transfers</h4>
+                          <p></p>
+                          <a href="airportTransfers.html">View more</a>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
                 </div>
-              </a>
-              <a href="aboutUs.html" class="gallery-readMore"><img class="thumbnail-modern-image"
-                  src="images/corporate2.jpeg" alt="" width="370" height="256" /></a>
-            </div>
-            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 2">
-              <a class="thumbnail-modern" href="images/road.jpeg" data-lightgallery="item"><img
-                  class="thumbnail-modern-image" src="images/road.jpeg" alt="" width="370" height="256" />
-                <div class="thumbnail-modern-caption"><span class="icon mdi mdi-magnify"> Road Shows</span></div>
-                <div class="thumbnail-modern-dummy"></div>
-              </a>
-              <a href="aboutUs.html" class="gallery-readMore"><img class="thumbnail-modern-image" src="images/road.jpeg"
-                  alt="" width="370" height="256" /></a>
-            </div>
-            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
-              <a class="thumbnail-modern" href="images/airportTransfer10.jpg" data-lightgallery="item"><img
-                  class="thumbnail-modern-image" src="images/airportTransfer10.jpg" alt="" width="370" height="256" />
-                <div class="thumbnail-modern-caption"><span class="icon mdi mdi-magnify"> Airport Transfers</span></div>
-                <div class="thumbnail-modern-dummy"></div>
-              </a>
-              <a href="airportTransfers.html" class="gallery-readMore"><img class="thumbnail-modern-image"
-                  src="images/airportTransfer10.jpg" alt="" width="370" height="256" /></a>
-            </div>
-            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 4">
-              <a class="thumbnail-modern" href="images/wine.jpg" data-lightgallery="item"><img
-                  class="thumbnail-modern-image" src="images/wine.jpg" alt="" width="370" height="256" />
-                <div class="thumbnail-modern-caption"><span class="icon mdi mdi-magnify"> Wine tour</span></div>
-                <div class="thumbnail-modern-dummy"></div>
-              </a>
-              <a href="wineTour.html" class="gallery-readMore"><img class="thumbnail-modern-image" src="images/wine.jpg"
-                  alt="" width="370" height="256" /></a>
-            </div>
-            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 5">
-              <a class="thumbnail-modern" href="images/cityTour.jpg" data-lightgallery="item"><img
-                  class="thumbnail-modern-image" src="images/cityTour.jpg" alt="" width="370" height="256" />
-                <div class="thumbnail-modern-caption"><span class="icon mdi mdi-magnify"> City Tour</span></div>
-                <div class="thumbnail-modern-dummy"></div>
-              </a>
-              <a href="services.html" class="gallery-readMore"><img class="thumbnail-modern-image"
-                  src="images/cityTour.jpg" alt="" width="370" height="256" /></a>
-            </div>
-            <div class="col-sm-6 col-lg-4 isotope-item " data-filter="Type 6">
-              <a class="thumbnail-modern" href="images/hourly.jpg" data-lightgallery="item"><img
-                  class="thumbnail-modern-image" src="images/hourly.jpg" alt="" width="370" height="256" />
-                <div class="thumbnail-modern-caption"><span class="icon mdi mdi-magnify"> As Directed / Hourly</span>
+                <div class="col-md-4 my-1">
+                  <div class="" data-category="road">
+                    <div class="item-content">
+                      <figure class="effect-bubba">
+                        <img src="./images/road.jpeg" alt="img02" class="img-fluid gallery-image1" />
+                        <figcaption>
+                          <h4 style="font-weight: 600;">Road</h4>
+                          <p></p>
+                          <a href="executiveTransportation.html">View more</a>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
                 </div>
-                <div class="thumbnail-modern-dummy"></div>
-              </a>
-              <a href="aboutUs.html" class="gallery-readMore"><img class="thumbnail-modern-image"
-                  src="images/hourly.jpg" alt="" width="370" height="256" /></a>
+                <div class="col-md-4 my-1">
+                  <div class="" data-category="wine">
+                    <div class="item-content">
+                      <figure class="effect-bubba">
+                        <img src="./images/wineTour1.jpeg" alt="img02" class="img-fluid gallery-image1" />
+                        <figcaption>
+                          <h4 style="font-weight: 600;">Wine Tours</h4>
+                          <p></p>
+                          <a href="wineTour.html">View more</a>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 my-1">
+                  <div class="" data-category="corporate">
+                    <div class="item-content">
+                      <figure class="effect-bubba">
+                        <img src="./images/corporate2.jpeg" alt="img02" class="img-fluid gallery-image1" />
+                        <figcaption>
+                          <h4 style="font-weight: 600;">Corporate</h4>
+                          <p></p>
+                          <a href="executiveTransportation.html">View more</a>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 my-1">
+                  <div class="" data-category="city">
+                    <div class="item-content">
+                      <figure class="effect-bubba">
+                        <img src="./images/curbside2.jpg" alt="img02" class="img-fluid gallery-image1" />
+                        <figcaption>
+                          <h4 style="font-weight: 600;">City Tours</h4>
+                          <p></p>
+                          <a href="services.html">View more</a>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 my-1 ">
+                  <div class="" data-category="houre">
+                    <div class="item-content">
+                      <figure class="effect-bubba">
+                        <img src="./images/houre2.jpeg" alt="img02" class="img-fluid  gallery-image1" />
+                        <figcaption>
+                          <h4 style="font-weight: 600;">As
+                            Directed / Hourly</h4>
+                          <p></p>
+                          <a href="executiveTransportation.html">View more</a>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </section>
     <!-- Page Footer-->
     <footer class="section footer-linked bg-black-750">
       <div class="footer-linked-main">
         <div class="container">
           <div class="row row-50">
-            <div class="col-lg-8">
+            <div class=" col-12 col-lg-8">
               <h4 class="text-title-footer footer-quicklinks">Quick Links</h4>
               <hr class="offset-right-1" />
               <div class="row row-20">
-                <div class="col-6 col-sm-3">
+                <div class="col-4 col-sm-3">
                   <ul class="list list-xs footer-quicklinks">
                     <li><a href="aboutUs.html">Who we are</a></li>
                     <li><a href="aboutUs.html">Why BNG</a></li>
@@ -644,14 +681,14 @@
                     <li><a href="contacts.html">Contact Us</a></li>
                   </ul>
                 </div>
-                <div class="col-6 col-sm-3">
+                <div class="col-4 col-sm-3">
                   <ul class="list list-xs footer-quicklinks">
                     <li><a href="faqs.html">FAQ’s</a></li>
                     <li><a href="contacts.html">Instant free Quote</a></li>
                     <li><a href="contacts.html">Book Now</a></li>
                   </ul>
                 </div>
-                <div class="col-6 col-sm-3">
+                <div class="col-4 col-sm-3">
                   <ul class="list list-xs footer-quicklinks">
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Twitter</a></li>
@@ -662,7 +699,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-7 col-lg-4">
+            <div class="col-12 col-md-7 col-lg-4">
               <h4 class="text-title-footer footer-quicklinks">Contact Information</h4>
               <hr />
               <ul class="list-sm">
@@ -722,7 +759,7 @@
   </div>
   <div class="preloader">
     <div class="preloader-logo">
-      <img src="images/bngLogo18.png" alt="" width="270" height="180" srcset="images/bngLogo18.png 2x" />
+      <img src="images/bngLogo20.jpg" alt="" width="270" height="180" srcset="images/bngLogo20.jpg 2x" />
     </div>
     <div class="preloader-body">
       <div id="loadingProgressG">
@@ -740,6 +777,7 @@
   <!--JQUERY-->
   <script src="js/core.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/isotope.js"></script>
   <script>
     // Get the video
     var video = document.getElementById("myVideo");
@@ -757,7 +795,35 @@
         btn.innerHTML = "Play";
       }
     }
+  </script>
+  <script type="text/javascript">
+    $(window).load(function () {
+      var $container = $('.portfolioContainer');
+      $container.isotope({
+        filter: '*',
+        animationOptions: {
+          duration: 750,
+          easing: 'linear',
+          queue: false
+        }
+      });
 
+      $('.portfolioFilter a').click(function () {
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+          filter: selector,
+          animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+          }
+        });
+        return false;
+      });
+    });
   </script>
 </body>
 
